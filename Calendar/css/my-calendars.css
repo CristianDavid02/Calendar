@@ -1,0 +1,25 @@
+.my-calendars{
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0.25rem;
+}
+
+
+.my-calendars .calendar-container{
+    /* border: 1px solid black; */
+    line-height: 1.25rem;
+    margin-block-start: 0.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-calendars i{
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5rem;
+}

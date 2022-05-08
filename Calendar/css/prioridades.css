@@ -1,0 +1,13 @@
+@import './my-calendars.css';
+@import './calendar-type.css';
+
+
+
+.prioridades{
+    inline-size: 12.25rem;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+

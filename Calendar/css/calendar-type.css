@@ -1,0 +1,34 @@
+.calendar-type{
+    /* border: 1px solid blue; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 0.75rem;
+    
+}
+
+.calendar-type .leo{
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+
+}
+
+
+.leo i{
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.187rem;
+}
+
+
+.leo span{
+    line-height: 1.25rem;
+    font: var(--body1-regular);
+    /* border: 1px solid orange; */
+    margin-block: 0.125rem;
+
+
+}
+

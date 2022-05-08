@@ -1,0 +1,31 @@
+.search-people{
+    /* border: 1px solid red; */
+    padding-block: 0.625rem;
+    padding-inline-start: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    block-size:  2.5rem;
+    inline-size: 12.25rem;
+    background: var(--gray10);
+    box-sizing: border-box;
+    margin: 0rem;
+    margin-block-end: 1.5rem;
+}
+
+.search-people .input{
+    border: none;
+    outline: none;
+    font: var(--body1-regular) ;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    max-inline-size: 6.625rem;
+    background: var(--gray10)
+}
+
+.search-people i{
+    
+    text-decoration: none;
+    line-height: 1.25rem;
+    height: 1rem;
+    width: 1rem;
+}
